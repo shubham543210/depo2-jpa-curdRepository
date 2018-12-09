@@ -37,7 +37,7 @@ public class Details2Controller {
 	{
 		return details2Service.getDetails2Service(lid);
 	}
-	
+	//some bug is present in many to one mapping
 	
 	
 	@RequestMapping(method=RequestMethod.GET,value="/details2/jpa")
